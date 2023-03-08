@@ -1,0 +1,99 @@
+.top{
+    width: 100%;
+    height:50px;
+    background-color:#242424;
+ 
+    position: sticky;
+    top:0;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+/* .topCenter {
+  flex: 6;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ 
+} */
+
+/* .topLeft{
+  flex: 3;
+  align-items: left;
+  justify-content: left;
+  margin-right: 5px;
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+} */
+.topRight {
+  flex: 3;
+  align-items: right;
+  justify-content: right;
+  margin-left: 10px;
+
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.topIcon {
+  font-size: 20px;
+  margin-right: 10px;
+  
+}
+
+.topList {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  margin: 30px;
+  padding: 0;
+  list-style: none;
+  color:white;
+  
+}
+.topListItem1 {
+  justify-content: left;
+  align-items: left;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.topListItem2 {
+  justify-content: left;
+  align-items: left;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.topListItem3 {
+  justify-content: right;
+  align-items: right;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.topListItem4 {
+  justify-content: right;
+  align-items: right;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.topListItem5 {
+  justify-content: right;
+  align-items: right;
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
