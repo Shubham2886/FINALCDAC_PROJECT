@@ -12,7 +12,7 @@ function Header() {
         
         <img
           className="headerImg"
-          src="/images/book7.jpg"
+          src="/images/front3.jpg"
           alt="bookImage"
           
         /><Login/>

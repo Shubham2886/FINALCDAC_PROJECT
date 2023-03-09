@@ -5,7 +5,7 @@ import "../css/Login.css"
 import { withRouter } from "react-router-dom";
 
  class Login extends Component {
-
+   
     constructor(props) {
         super(props)
 
@@ -15,20 +15,38 @@ import { withRouter } from "react-router-dom";
         }
 
         this.saveUser = this.saveUser.bind(this);
+        // this.emailValidation = this.emailValidation.bind(this);
      
     }
-
+    
     changeEmail = (event) => {
-        this.setState({ email: event.target.value });
+         this.setState({ email: event.target.value });
+        console.log(this.state.email);
+        // if(this.emailValidation())
+        //  document.getElementById("Email-Validation").style.visibility = "visible"
+        // else 
+        // document.getElementById("Email-Validation").style.visibility = "hidden"
     }
     changePassword = (event) => {
         this.setState({ password: event.target.value });
     }
-
+    // emailValidation(){
+    //     const regex = /^([a-zA-Z0-9]([a-zA-Z0-9_\.]+)?[a-zA-Z0-9])@([a-zA-Z0-9]([a-zA-Z0-9\-]+)?[a-zA-Z0-9])\.([a-zA-Z]{2,})(\.[a-zA-Z]{2,})?$/;
+    //     if(!this.state.email || regex.test(this.state.email) === false){
+    //         this.setState({
+    //             error: "Email is not valid"
+    //         });
+    //         return false;
+    //     }
+    //     return true;
+    // }
     saveUser = (u) => {
         u.preventDefault();
         let users = { email: this.state.email, password: this.state.password };
         console.log('Users => ' + JSON.stringify(users));
+
+        
+
 
         UserService.login(users).then((res) => {
             console.log(res.data.email)
@@ -57,20 +75,21 @@ import { withRouter } from "react-router-dom";
         const { email, password } = this.state;
 
         return (
-            <div className="login">
+            <div className="login col-md-9">
 
                 <form className="loginForm">
-                    <label>Username</label>
+                    <h2 className='a' >Username</h2>
                     <input
                         type="text"
                         className="loginInput"
                         placeholder="Enter email-Id"
                         value={email}
                         onChange={this.changeEmail}
-
-
-                    />
-                    <label>Password</label>
+                        />
+                        <div id="Email-Validation" >
+                            Email is not valid
+                        </div>
+                    <h2 className='a'>Password</h2>
                     <input
                         type="password"
                         className="loginInput"

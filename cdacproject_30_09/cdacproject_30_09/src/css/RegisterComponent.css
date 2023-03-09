@@ -1,4 +1,5 @@
 .container{
+  background-image: url(book.jpg);
   margin-top: 10px;
 }
 .text-center{
@@ -6,4 +7,21 @@
 }
 .card-body{
   height: 80%;
+}
+.abc{
+  text-align: center;
+  font-family:'Times New Roman', Times, serif;
+  font-size: xx-large;
+  
+}
+.btn1{
+  
+  margin-left: 100px;
+
+}
+.btn2{
+  margin-left: 200;
+}
+.img{
+  background-image: url('a.jpg');
 }

@@ -12,7 +12,8 @@ class UserService {
     login(UserEmailPass) 
     {
        
-       return axios.post(USER_API_BASE_URL+'/login',UserEmailPass)             //"http://localhost:8080/user/login?email=bhosalerahul5920@gmail.com&pass=1234
+       return axios.post(USER_API_BASE_URL+'/login',UserEmailPass) 
+       //"http://localhost:8080/user/login?email=sujitksagar93@gmail.com&pass=sujit
     }   
    
 }
