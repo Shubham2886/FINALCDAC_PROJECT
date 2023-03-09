@@ -12,19 +12,18 @@ const About = () => {
                     <p>
                         <marquee width="60%" direction="right" height="100px">
                             <h3>
-                                welcome to our BookMyBook website
+                                welcome to our Book4U website
                             </h3>
                         </marquee>
                     </p>
                     <p>
-                        This is the online platform where book readers can get books for exchange or rent purpose.
+                        This is the online platform where book readers can get books for exchange.
                         Also users can posts their books for the same.
                     </p>
-
-
                 </div >
                 <div> <p>Contact us :</p>
-                    <p>email :BookMyBook@gmail.com</p><p>conatct no :86614</p></div>
+                    <p>email :Book4U@gmail.com</p><p>conatct no :7038669393</p>
+                 </div>
 
             </div>
 

@@ -31,7 +31,7 @@ class TopbarComponent extends Component {
       <div className="top" >
         <div className="topLeft">
           <ul className="topList">
-            <li className="topListItem1"> BookMyBook <i class="fas fa-book-reader"></i></li>
+            <li className="topListItem1"> Book4U <i class="fas fa-book-reader"></i></li>
             <li className="topListItem1">
               <Link to="/" className="link" >Home</Link></li>
             <li className="topListItem2">

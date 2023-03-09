@@ -24,10 +24,10 @@ function Footer() {
                 <div className='social-media-wrap'>
                     <div className="footer-logo">
                         <Link className='social-logo'>
-                            BookMyBook <i class="fas fa-book-reader"/>
+                            Book4U <i class="fas fa-book-reader"/>
                         </Link>
                     </div>
-                    <small class='website-rights'>BookMyBook ©️ 2021</small>
+                    <small class='website-rights'>Book4U ©️ 2021</small>
                     <div class='social-icons'>
                         <Link
                             class='social-icon-link facebook'
