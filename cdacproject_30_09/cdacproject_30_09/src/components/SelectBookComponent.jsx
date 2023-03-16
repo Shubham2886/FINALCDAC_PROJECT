@@ -74,7 +74,8 @@ export default class SelectBookComponent extends Component {
                                             <li><h4>Edition : {this.state.edition}</h4></li>
                                             <li><h4>Publication : {this.state.publication}</h4></li>
                                             <li><h4>Description : {this.state.description}</h4>
-                                            <li><h4>Image : {this.state.book_image}</h4></li></li></ul>
+                                            {/* <li><h4>Image : {this.state.book_image}</h4></li>*/}
+                                            </li></ul> 
 
 
                                     </article>
@@ -87,7 +88,7 @@ export default class SelectBookComponent extends Component {
                 <hr />
             
                 
-                <h3>This book belongs to {this.state.user_id.full_name} with Id:{this.state.user_id.userId}</h3>
+                {/* <h3>This book belongs to {this.state.user_id.full_name} with Id:{this.state.user_id.userId}</h3> */}
                 <button className="btn btn-info" onClick={this.gotoExchange} style={{ marginTop: "10px" }}>Exchange</button>
                 <button className="btn btn-info" onClick={this.cancel.bind(this)} style={{ marginLeft: "10px", marginTop: "10px" }}>Rent</button>
             
