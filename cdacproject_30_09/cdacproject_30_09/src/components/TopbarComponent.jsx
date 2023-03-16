@@ -38,28 +38,24 @@ class TopbarComponent extends Component {
             <Link to="/aboutus" className="link" >About</Link></li>
 
             <li className="topListItem2">
-              {user ?
+              
                 <Link className="link" to="/addbook">Add Book</Link>
-                :
-                null
-              }
+                
+              
             </li>
 
             <li className="topListItem2">
-              {user ?
+              
 
                 <Link className="link" to="/books">All Books</Link>
-                :
-                null
-              }
+                
+              
             </li>
             <li className="topListItem2">
-              {user ?
+              
 
                 <Link className="link" to="/offer">View Offers</Link>
-                :
-                null
-              }
+              
             </li>
 
           </ul>

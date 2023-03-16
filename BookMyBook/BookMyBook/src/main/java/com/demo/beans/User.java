@@ -82,6 +82,7 @@ public class User {
 		this.address = address;
 	}
 
+	
 	public User(String full_name, String password, String mobileNumber, String email, String aadharNumber,
 			Address address) {
 		super();

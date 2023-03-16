@@ -22,7 +22,9 @@ const About = () => {
                     </p>
                 </div >
                 <div> <p>Contact us :</p>
-                    <p>email :Book4U@gmail.com</p><p>conatct no :7038669393</p>
+                    <p>email : Book4U@gmail.com</p>
+                    <p>contact person : Mr.Sujit Khirsagar</p>
+                    <p>conatct no. :7038669393</p>
                  </div>
 
             </div>
